@@ -1,0 +1,9 @@
+# cached files
+**/__pycache__/*
+.model.pt
+
+# sub-repos
+polysaccharide2/*
+
+# data output
+workflow_test/*
