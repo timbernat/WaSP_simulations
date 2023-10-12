@@ -69,22 +69,24 @@ echo "Touched directory $root_dir"
 
 # actual code
 # ===================================================
-for mol_name in "${mol_names[@]}"; do
+for mol_name in "${mol_names[@]}"; do # iterate over list of names
     mol_dir=$root_dir/$mol_name
     root_log_dir="$mol_dir/Logs"
+
     sdf_path=$(python -m components.assign_chem   -wdir $mol_dir -ldir $root_log_dir -pdb $pdb_src/$mol_name.pdb -mono $mono_src/$mol_name.json -n $mol_name)
     rct_paths=$(python -m components.rct_protocol -wdir $mol_dir -ldir $root_log_dir -mono $mono_src/$mol_name.json -n $mol_name -cmet $rct_charge_method -N $N)
-    
-    echo ${rct_paths[0]}
-    # echo ${rct_paths[1]}
+
+    rct_paths=($rct_paths) # convert to array so each of multiple components can be read off one-by-one
+    lib_chg_path=${rct_paths[0]} # path to cached library charges
+    redux_path=${rct_paths[1]}   # path to reduced-size molecule used to generate library charges
+    redux_RCT_path=$(python -m components.charge_mol -wdir $mol_dir -ldir $root_log_dir  -sdf $redux_path -cmet 'RCT' -lc $lib_chg_path) # also charge reduction w/ RCT charges for validation; output catching unused, simply done to avoid terminal output clutter
 
     for charge_method in "${charge_methods[@]}"; do
         charge_dir=$mol_dir/$charge_method
         charge_log_dir="$charge_dir/Logs"
-        # TODO : also add RCT charge of reduction
-        charge_path=$(python -m components.charge_mol -wdir $charge_dir -ldir $charge_log_dir  -sdf $sdf_path -cmet $charge_method -lc $mol_dir/${mol_name}_residue_charges.json)
+        charge_path=$(python -m components.charge_mol -wdir $charge_dir -ldir $charge_log_dir  -sdf $sdf_path -cmet $charge_method -lc $lib_chg_path)
 
-        for ((i=1; i<=$num_confs; i++)); do
+        for ((i=1; i<=$num_confs; i++)); do # can't use {1..$num_confs} (variable upper bound returns curly braces as literal)
             conf_name="conformer_$i"
             conf_dir=$charge_dir/$conf_name
             conf_log_dir="$conf_dir/Logs"
