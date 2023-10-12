@@ -1,5 +1,10 @@
 '''Record script for regenerating simulation parameter files from scratch'''
 
+import warnings
+warnings.catch_warnings(record=True)
+warnings.filterwarnings('ignore', category=UserWarning)
+warnings.filterwarnings('ignore', category=DeprecationWarning)
+
 from pathlib import Path
 from openmm.unit import nanosecond, picosecond, femtosecond
 from openmm.unit import kelvin, atmosphere
