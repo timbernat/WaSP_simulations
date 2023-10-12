@@ -1,0 +1,1 @@
+'''Scripts for modularizing and adapting OpenMM MD simulations for SLURM shell-based submission'''
