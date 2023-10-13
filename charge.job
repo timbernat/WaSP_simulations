@@ -1,0 +1,40 @@
+#!/bin/bash
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=02:00:00
+#SBATCH --partition=blanca-shirts
+#SBATCH --qos=blanca-shirts
+#SBATCH --gres=gpu
+#SBATCH --job-name=polycharge
+#SBATCH --output=slurm_logs/polycharge.log
+# #SBATCH --mail-user=tibe3324@colorado.edu
+# #SBATCH --mail-type=END
+
+# ============================================================================================================================
+# DESC : assigns charges to parameterized molecules (from SDF structure) using method of choice
+# Primary outputs : molecule SDF, library charge JSON along with accompanying log files
+# Secondary output : reduced-molecule SDF with original charges and reduced-molecule SDF with original charges (for benchmark)
+# ============================================================================================================================
+
+# ============================================================================================================================
+# module config
+# ============================================================================================================================
+module purge
+ml anaconda
+conda activate openff-polymers
+
+# ============================================================================================================================
+# argument aliases
+# ============================================================================================================================
+working_dir=$1
+logging_dir=$2
+
+sdf_path=$3
+charge_method=$4
+lib_charge_path=$5
+
+# ===========================================================================================================================================
+# code execution
+# ===========================================================================================================================================
+charge_path=$(python -m components.charge_mol -wdir $working_dir-ldir $logging_dir  -sdf $sdf_path -cmet $charge_method -lc $lib_charge_path)

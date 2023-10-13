@@ -1,0 +1,53 @@
+#!/bin/bash
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=00:15:00
+#SBATCH --partition=blanca-shirts
+#SBATCH --qos=blanca-shirts
+#SBATCH --gres=gpu
+# #SBATCH --mail-user=tibe3324@colorado.edu
+# #SBATCH --mail-type=END
+
+# ============================================================================================================================
+# DESC : builds chemically-valid SDF files from PDB and monomer JSON starting structures.
+# Carries out RCT library charge generation procedure up to specified chain length with charging method of choice
+# Primary outputs  : molecule SDF, library charge JSON
+# Secondary output : reduced-molecule SDF with original charges and reduced-molecule SDF with original charges (for benchmark)
+# ============================================================================================================================
+
+# ============================================================================================================================
+# argument aliases
+# ============================================================================================================================
+working_dir=$1
+logging_dir=$2
+
+mol_name=$3
+pdb_path=$4
+mono_path=$5
+
+N_max=$6
+rct_charge_method=$7
+
+# ============================================================================================================================
+# module config
+# ============================================================================================================================
+module purge
+module avail
+ml anaconda
+conda activate openff-polymers
+
+# ============================================================================================================================
+# code execution
+# ============================================================================================================================
+sdf_path=$( python -m components.assign_chem  -wdir $working_dir -ldir $logging_dir -pdb $pdb_path -mono $mono_path -n $mol_name)
+rct_paths=$(python -m components.rct_protocol -wdir $working_dir -ldir $logging_dir -mono $mono_path -n $mol_name -cmet $rct_charge_method -N $N_max)
+
+rct_paths=($rct_paths) # convert to array so each of multiple components can be read off one-by-one
+lib_chg_path=${rct_paths[0]} # path to cached library charges
+redux_path=${rct_paths[1]}   # path to reduced-size molecule used to generate library charges
+
+# also charge reduction w/ RCT charges for validation; output catching unused, simply done to avoid terminal output clutter
+redux_RCT_path=$(python -m components.charge_mol -wdir $working_dir -ldir $logging_dir -sdf $redux_path -cmet 'RCT' -lc $lib_chg_path) 
+
+echo $sdf_path
