@@ -90,12 +90,13 @@ for mol_name in "${mol_names[@]}"; do # iterate over list of names
         job_id_charge=$(sbatch --parsable --dependency "afterok:$job_id_param" --job-name $charge_method --output ${slurm_log_dir}/charge_${mol_name}_${charge_method}.log charge.job $charge_args)
 
         for ((i=1; i<=$num_confs; i++)); do # can't use {1..$num_confs} (variable upper bound returns curly braces as literal)
-            conf_name="conf$i"
+            conf_name="conf${i}"
             conf_dir=$charge_dir/$conf_name
             conf_log_dir="$conf_dir/Logs"
 
-            conf_args="$conf_dir $conf_log_dir $iocharge $conf_name $box_x $box_y $box_z $box_unit density_gcm3 $solvent $exclusion $exclusion_unit $forcefield $anneal_param_path $equil_param_path $prod_param_path $rmin $rmax $rad_unit"
-            sbatch --dependency "afterok:$job_id_charge" --job-name ${conf_name}${mol_name} --output ${slurm_log_dir}/${mol_name}_${charge_method}_${conf_name}.log  sims.job $conf_args # don't need to catch job ID (no subsequent jobs)
+            conf_args="$conf_dir $conf_log_dir $iocharge $conf_name $box_x $box_y $box_z $box_unit $density_gcm3 $solvent $exclusion $exclusion_unit $forcefield $anneal_param_path $equil_param_path $prod_param_path $rmin $rmax $rad_unit"
+            echo $conf_args
+            job_id_conf=$(sbatch --dependency "afterok:$job_id_charge" --job-name ${conf_name}${mol_name} --output ${slurm_log_dir}/${mol_name}_${charge_method}_${conf_name}.log sims.job $conf_args) # not actually necessary to catch job ID (no subsequent jobs), just keeps logging clean
         done
     done
 done
