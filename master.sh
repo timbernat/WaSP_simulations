@@ -18,34 +18,33 @@ mono_src="$struct_src/monomers"
 
 mol_names=(
     'paam_modified'
-    # 'peg_modified'
-    # 'pnipam_modified'
+    'peg_modified'
+    'pnipam_modified'
 )
 
 # charging methods
 N_max=150
-rct_charge_method='Espaloma-AM1-BCC'
-# rct_charge_method='AM1-BCC-ELF10'
+# rct_charge_method='Espaloma-AM1-BCC'
+rct_charge_method='AM1-BCC-ELF10'
 charge_methods=(
-    # 'AM1-BCC-ELF10'
     'Espaloma-AM1-BCC'
     'RCT'
 )
 
 # periodic box size
-box_x=6.0
-box_y=6.0
-box_z=6.0
+box_x=7.5
+box_y=7.5
+box_z=7.5
 box_unit='nanometer'
 
 # simulation parameter sets
-num_confs=1
+num_confs=4
 forcefield='openff-2.0.0'
 
 param_dir='sim_param_sets'
 anneal_param_path=$param_dir/anneal_params.json
 equil_param_path=$param_dir/equilibration_params.json
-prod_param_path=$param_dir/production_lite_params.json
+prod_param_path=$param_dir/production_params.json
 
 # solvation 
 solvent='water_TIP3P'
@@ -95,8 +94,7 @@ for mol_name in "${mol_names[@]}"; do # iterate over list of names
             conf_log_dir="$conf_dir/Logs"
 
             conf_args="$conf_dir $conf_log_dir $iocharge $conf_name $box_x $box_y $box_z $box_unit $density_gcm3 $solvent $exclusion $exclusion_unit $forcefield $anneal_param_path $equil_param_path $prod_param_path $rmin $rmax $rad_unit"
-            echo $conf_args
-            job_id_conf=$(sbatch --dependency "afterok:$job_id_charge" --job-name ${conf_name}${mol_name} --output ${slurm_log_dir}/${mol_name}_${charge_method}_${conf_name}.log sims.job $conf_args) # not actually necessary to catch job ID (no subsequent jobs), just keeps logging clean
+            job_id_conf=$(sbatch --dependency "afterok:$job_id_charge" --job-name ${conf_name}${mol_name} --output ${slurm_log_dir}/sim_${mol_name}_${charge_method}_${conf_name}.log sims.job $conf_args) # not actually necessary to catch job ID (no subsequent jobs), just keeps logging clean
         done
     done
 done
