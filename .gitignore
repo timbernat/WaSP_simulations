@@ -1,4 +1,5 @@
 # cached files
+**/*.pyc
 **/__pycache__/*
 .model.pt
 
@@ -6,4 +7,8 @@
 polysaccharide2/*
 
 # data output
-workflow_test/*
+wasp_sims/*
+slurm_logs/*
+
+# debug
+sbatch_tests/*
