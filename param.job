@@ -21,19 +21,19 @@
 # ============================================================================================================================
 working_dir=$1
 logging_dir=$2
+outpaths=$3
 
-mol_name=$3
-pdb_path=$4
-mono_path=$5
+mol_name=$4
+pdb_path=$5
+mono_path=$6
 
-N_max=$6
-rct_charge_method=$7
+N_max=$7
+rct_charge_method=$8
 
 # ============================================================================================================================
 # module config
 # ============================================================================================================================
 module purge
-module avail
 ml anaconda
 conda activate openff-polymers
 
@@ -50,4 +50,6 @@ redux_path=${rct_paths[1]}   # path to reduced-size molecule used to generate li
 # also charge reduction w/ RCT charges for validation; output catching unused, simply done to avoid terminal output clutter
 redux_RCT_path=$(python -m components.charge_mol -wdir $working_dir -ldir $logging_dir -sdf $redux_path -cmet 'RCT' -lc $lib_chg_path) 
 
-echo $sdf_path
+# write output to shared file
+echo $sdf_path >> $outpaths
+echo $lib_chg_path >> $outpaths

@@ -29,12 +29,17 @@ conda activate openff-polymers
 # ============================================================================================================================
 working_dir=$1
 logging_dir=$2
+inpaths=$3
+outpaths=$4
 
-sdf_path=$3
-charge_method=$4
-lib_charge_path=$5
+charge_method=$5
+
+vars=($(cat $inpaths))
+sdf_path=${vars[0]}
+lib_charge_path=${vars[1]}
 
 # ===========================================================================================================================================
 # code execution
 # ===========================================================================================================================================
-charge_path=$(python -m components.charge_mol -wdir $working_dir-ldir $logging_dir  -sdf $sdf_path -cmet $charge_method -lc $lib_charge_path)
+charge_path=$(python -m components.charge_mol -wdir $working_dir -ldir $logging_dir -sdf $sdf_path -cmet $charge_method -lc $lib_charge_path)
+echo $charge_path >> $outpaths # write output to shared file

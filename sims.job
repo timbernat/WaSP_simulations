@@ -29,9 +29,8 @@ conda activate openff-polymers
 # ============================================================================================================================
 working_dir=$1
 logging_dir=$2
-
-conf_name=$3
-charged_sdf=$4
+inpaths=$3
+conf_name=$4
 
 box_x=$5
 box_y=$6
@@ -50,11 +49,15 @@ prod_param_path=$16
 
 rmin=$17
 rmax=$18
-r_unit=$19
+rad_unit=$19
+
+vars=($(cat $inpaths))
+charged_sdf=${vars[0]}
+echo $charged_sdf
 
 # ===========================================================================================================================================
 # code execution
 # ===========================================================================================================================================
 conf_path=$(python -m components.anneal  -wdir $working_dir -ldir $logging_dir -sdf $charged_sdf -a $conf_name -bd $box_x $box_y $box_z -bdu $box_unit -sp $anneal_param_path -ff $forcefield)
 solv_path=$(python -m components.solvate -wdir $working_dir -ldir $logging_dir -sdf $conf_path   -a $conf_name -solv $solvent -rho $density_gcm3 -bd $box_x $box_y $box_z -bdu $box_unit -exc $exclusion -excu $exclusion_unit)
-python -m components.simulate -wdir $working_dir -ldir $logging_dir -sdf $solv_path -a $conf_name -bd $box_x $box_y $box_z -bdu $box_unit -sp "equilibration=$equil_param_path" "production=$prod_param_path" -ff $forcefield -az 'production' -rmin $rmin -rmax $rmax -ru $r_unit)
+python -m components.simulate -wdir $working_dir -ldir $logging_dir -sdf $solv_path -a $conf_name -bd $box_x $box_y $box_z -bdu $box_unit -sp "equilibration=$equil_param_path" "production=$prod_param_path" -ff $forcefield -az 'production' -rmin $rmin -rmax $rmax -ru $rad_unit
