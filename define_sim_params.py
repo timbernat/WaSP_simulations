@@ -19,8 +19,7 @@ all_params = {
     'anneal' : SimulationParameters(
         integ_params=IntegratorParameters(
             time_step=2*femtosecond,
-            # total_time=1*nanosecond,
-            total_time=50*picosecond,
+            total_time=1*nanosecond,
             num_samples=100
         ),
         thermo_params=ThermoParameters(
