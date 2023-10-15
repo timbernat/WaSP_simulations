@@ -8,8 +8,8 @@
 #SBATCH --gres=gpu
 #SBATCH --job-name=polycharge
 #SBATCH --output=slurm_logs/polycharge.log
-# #SBATCH --mail-user=tibe3324@colorado.edu
-# #SBATCH --mail-type=END
+#SBATCH --mail-user=tibe3324@colorado.edu
+#SBATCH --mail-type=END
 
 # ============================================================================================================================
 # DESC : assigns charges to parameterized molecules (from SDF structure) using method of choice
