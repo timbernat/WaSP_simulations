@@ -1,0 +1,7 @@
+,,DREIDING - RESP,GAFF - RESP,GAFF2 - RESP
+observables,"Radius of Gyration (Rg, nm)",1.118,0.954,0.972
+observables,"Solvent Accessible Surface Area (SASA, nm**2)",32.43,27.94,28.89
+observables,"Relative Shape Anisotropy (K2, dimensionless)",0.25,0.18,0.16
+uncertainties,"Radius of Gyration (Rg, nm)",0.038,0.035,0.054
+uncertainties,"Solvent Accessible Surface Area (SASA, nm**2)",0.81,1.0,1.08
+uncertainties,"Relative Shape Anisotropy (K2, dimensionless)",0.04,0.05,0.08

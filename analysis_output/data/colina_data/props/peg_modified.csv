@@ -1,0 +1,7 @@
+,,CHARMM - Mulliken,CHARMM-c - Mulliken
+observables,"Radius of Gyration (Rg, nm)",1.001,1.298
+observables,"Solvent Accessible Surface Area (SASA, nm**2)",25.85,30.72
+observables,"Relative Shape Anisotropy (K2, dimensionless)",0.28,0.39
+uncertainties,"Radius of Gyration (Rg, nm)",0.18,0.243
+uncertainties,"Solvent Accessible Surface Area (SASA, nm**2)",3.22,2.45
+uncertainties,"Relative Shape Anisotropy (K2, dimensionless)",0.16,0.18
