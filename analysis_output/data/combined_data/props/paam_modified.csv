@@ -1,0 +1,7 @@
+,,Sage 2.0.0 - RCT,Sage 2.0.0 - Espaloma-AM1-BCC,DREIDING - RESP,GAFF - RESP,GAFF2 - RESP
+observables,"Radius of Gyration (Rg, nm)",1.0182409935546484,1.342114519907987,1.782,0.888,1.036
+observables,"Solvent Accessible Surface Area (SASA, nm**2)",28.299693198600004,35.4623711663,37.06,24.97,27.86
+observables,"Relative Shape Anisotropy (K2, dimensionless)",0.2258614533776141,0.3581076511706519,0.5,0.1,0.26
+uncertainties,"Radius of Gyration (Rg, nm)",0.0662180414603398,0.092853706403405,0.286,0.132,0.115
+uncertainties,"Solvent Accessible Surface Area (SASA, nm**2)",1.4151180282684352,0.6049817167623788,0.89,1.4,2.03
+uncertainties,"Relative Shape Anisotropy (K2, dimensionless)",0.0281997270526723,0.0655423513640384,0.17,0.11,0.15
