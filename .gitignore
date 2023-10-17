@@ -7,8 +7,9 @@
 polysaccharide2/*
 
 # data output
-wasp_sims/*
+# wasp_sims/*
 slurm_logs/*
+**/*.dcd
 
 # debug
 sbatch_tests/*
