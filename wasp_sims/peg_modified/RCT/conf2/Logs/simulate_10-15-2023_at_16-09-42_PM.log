@@ -1,0 +1,53 @@
+2023-10-15 16:09:42.387 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/RCT/conf2/peg_modified_solv_water_TIP3P.sdf
+2023-10-15 16:09:58.984 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-15 16:09:58.985 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-15 16:11:41.637 [INFO    :       execution:line 38  ] - Initializing simulation 1/2 ("equilibration")
+2023-10-15 16:11:41.667 [INFO    :          thermo:line 92  ] - Created MonteCarloBarostat Force(s) for NPT (Isothermal-isobaric) ensemble
+2023-10-15 16:11:41.667 [INFO    :     preparation:line 32  ] - Added MonteCarloBarostat Force to System
+2023-10-15 16:11:41.669 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NPT (Isothermal-isobaric) ensemble
+2023-10-15 16:11:42.671 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_trajectory.dcd
+2023-10-15 16:11:42.672 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_checkpoint.chk
+2023-10-15 16:11:42.673 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_state.xml
+2023-10-15 16:11:42.679 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_state_data.csv
+2023-10-15 16:11:42.679 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-15 16:11:42.730 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = 624813.3398982733 kJ/mol)
+2023-10-15 16:12:12.271 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -709502.4101017262 kJ/mol)
+2023-10-15 16:12:12.807 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_topology.pdb
+2023-10-15 16:12:14.127 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/peg_modified/RCT/conf2/equilibration/equilibration_system.xml
+2023-10-15 16:12:14.127 [INFO    :       execution:line 62  ] - Integrating 50 ps OpenMM Simulation for 25000 steps
+2023-10-15 16:14:17.332 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-15 16:14:17.335 [INFO    :       execution:line 65  ] - 
+2023-10-15 16:14:17.339 [INFO    :       execution:line 38  ] - Initializing simulation 2/2 ("production")
+2023-10-15 16:14:17.368 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-15 16:14:18.206 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/peg_modified/RCT/conf2/production/production_trajectory.dcd
+2023-10-15 16:14:18.207 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/peg_modified/RCT/conf2/production/production_checkpoint.chk
+2023-10-15 16:14:18.209 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/peg_modified/RCT/conf2/production/production_state.xml
+2023-10-15 16:14:18.219 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/peg_modified/RCT/conf2/production/production_state_data.csv
+2023-10-15 16:14:18.220 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-15 16:14:18.270 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = -574705.1601017262 kJ/mol)
+2023-10-15 16:15:18.728 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -718878.6601017262 kJ/mol)
+2023-10-15 16:15:19.327 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/peg_modified/RCT/conf2/production/production_topology.pdb
+2023-10-15 16:15:20.747 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/peg_modified/RCT/conf2/production/production_system.xml
+2023-10-15 16:15:20.747 [INFO    :       execution:line 62  ] - Integrating 100 ns OpenMM Simulation for 50000000 steps
+2023-10-16 02:32:08.414 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 02:32:08.416 [INFO    :       execution:line 65  ] - 
+2023-10-16 02:32:24.731 [CRITICAL:      IOHandlers:line 95  ] - Traceback (most recent call last):
+  File "/projects/tibe3324/Python/WaSP_simulations/components/simulate.py", line 131, in main
+    analyze_trajectory(step_to_analyze, sim_paths, min_rad=args.min_radius, max_rad=args.max_radius, rad_unit=args.radius_unit)
+  File "/projects/tibe3324/Python/WaSP_simulations/components/simulate.py", line 97, in analyze_trajectory
+    prop_data = mdtrajutils.acquire_time_props(traj_no_solv, time_points=sim_params.integ_params.time_points)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/tibe3324/Python/WaSP_simulations/polysaccharide2/analysis/mdtrajutils.py", line 116, in acquire_time_props
+    out_dframe[prop.label] = time_series * prop.unit
+    ~~~~~~~~~~^^^^^^^^^^^^
+  File "/projects/tibe3324/software/anaconda/envs/openff-polymers/lib/python3.11/site-packages/pandas/core/frame.py", line 4094, in __setitem__
+    self._set_item(key, value)
+  File "/projects/tibe3324/software/anaconda/envs/openff-polymers/lib/python3.11/site-packages/pandas/core/frame.py", line 4303, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/tibe3324/software/anaconda/envs/openff-polymers/lib/python3.11/site-packages/pandas/core/frame.py", line 5042, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/projects/tibe3324/software/anaconda/envs/openff-polymers/lib/python3.11/site-packages/pandas/core/common.py", line 561, in require_length_match
+    raise ValueError(
+ValueError: Length of values (2559) does not match length of index (5000)
+

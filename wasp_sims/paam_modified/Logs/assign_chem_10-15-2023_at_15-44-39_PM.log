@@ -1,0 +1,4 @@
+2023-10-15 15:44:39.489 [INFO    :     assign_chem:line 56  ] - Assigning chemistry for molecule "paam_modified"
+2023-10-15 15:44:40.433 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/paam_modified/paam_modified.sdf
+2023-10-15 15:44:40.433 [INFO    :      IOHandlers:line 95  ] - Process "assign_chem" completed in 0:00:00.944257
+

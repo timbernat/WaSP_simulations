@@ -1,0 +1,42 @@
+{
+    "parameters_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_parameters.json"
+    },
+    "paths_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_paths.json"
+    },
+    "system_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_system.xml"
+    },
+    "topology_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_topology.pdb"
+    },
+    "state_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_state.xml"
+    },
+    "checkpoint_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_checkpoint.chk"
+    },
+    "trajectory_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_trajectory.dcd"
+    },
+    "state_data_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_state_data.csv"
+    },
+    "time_data_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_time_series.csv"
+    },
+    "spatial_data_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_rdfs.csv"
+    }
+}

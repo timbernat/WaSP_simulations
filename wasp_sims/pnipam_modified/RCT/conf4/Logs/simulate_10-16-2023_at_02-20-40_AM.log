@@ -1,0 +1,33 @@
+2023-10-16 02:20:40.117 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/pnipam_modified/RCT/conf4/pnipam_modified_solv_water_TIP3P.sdf
+2023-10-16 02:20:54.729 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-16 02:20:54.730 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-16 02:22:20.741 [INFO    :       execution:line 38  ] - Initializing simulation 1/2 ("equilibration")
+2023-10-16 02:22:20.765 [INFO    :          thermo:line 92  ] - Created MonteCarloBarostat Force(s) for NPT (Isothermal-isobaric) ensemble
+2023-10-16 02:22:20.765 [INFO    :     preparation:line 32  ] - Added MonteCarloBarostat Force to System
+2023-10-16 02:22:20.767 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NPT (Isothermal-isobaric) ensemble
+2023-10-16 02:22:21.321 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_trajectory.dcd
+2023-10-16 02:22:21.322 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_checkpoint.chk
+2023-10-16 02:22:21.323 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_state.xml
+2023-10-16 02:22:21.325 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_state_data.csv
+2023-10-16 02:22:21.325 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-16 02:22:21.350 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = 654956.0625763983 kJ/mol)
+2023-10-16 02:22:49.576 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -712592.9374236017 kJ/mol)
+2023-10-16 02:22:50.125 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_topology.pdb
+2023-10-16 02:22:50.784 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/pnipam_modified/RCT/conf4/equilibration/equilibration_system.xml
+2023-10-16 02:22:50.784 [INFO    :       execution:line 62  ] - Integrating 50 ps OpenMM Simulation for 25000 steps
+2023-10-16 02:24:51.985 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 02:24:51.986 [INFO    :       execution:line 65  ] - 
+2023-10-16 02:24:51.989 [INFO    :       execution:line 38  ] - Initializing simulation 2/2 ("production")
+2023-10-16 02:24:52.027 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-16 02:24:52.619 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/production/production_trajectory.dcd
+2023-10-16 02:24:52.620 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/production/production_checkpoint.chk
+2023-10-16 02:24:52.621 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/production/production_state.xml
+2023-10-16 02:24:52.623 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/pnipam_modified/RCT/conf4/production/production_state_data.csv
+2023-10-16 02:24:52.623 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-16 02:24:52.648 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = -574339.4374236017 kJ/mol)
+2023-10-16 02:25:15.238 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -724294.9374236017 kJ/mol)
+2023-10-16 02:25:16.843 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/pnipam_modified/RCT/conf4/production/production_topology.pdb
+2023-10-16 02:25:17.518 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/pnipam_modified/RCT/conf4/production/production_system.xml
+2023-10-16 02:25:17.519 [INFO    :       execution:line 62  ] - Integrating 100 ns OpenMM Simulation for 50000000 steps
+2023-10-16 12:10:03.374 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 12:10:03.379 [INFO    :       execution:line 65  ] - 

@@ -1,0 +1,2 @@
+wasp_sims/peg_modified/peg_modified.sdf
+wasp_sims/peg_modified/peg_modified_residue_charges.json

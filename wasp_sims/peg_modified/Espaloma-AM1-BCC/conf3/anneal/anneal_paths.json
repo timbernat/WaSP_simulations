@@ -1,0 +1,36 @@
+{
+    "parameters_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_parameters.json"
+    },
+    "paths_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_paths.json"
+    },
+    "system_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_system.xml"
+    },
+    "topology_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_topology.pdb"
+    },
+    "state_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_state.xml"
+    },
+    "checkpoint_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_checkpoint.chk"
+    },
+    "trajectory_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_trajectory.dcd"
+    },
+    "state_data_path": {
+        "__class__": "Path",
+        "__values__": "wasp_sims/peg_modified/Espaloma-AM1-BCC/conf3/anneal/anneal_state_data.csv"
+    },
+    "time_data_path": null,
+    "spatial_data_path": null
+}

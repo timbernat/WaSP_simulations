@@ -1,0 +1,17 @@
+2023-10-15 15:45:08.590 [INFO    :        building:line 77  ] - Using pre-defined terminal group orientation {'pnipam_TERM2': 'head', 'pnipam_TERM3': 'tail'}
+2023-10-15 15:45:08.591 [INFO    :        building:line 88  ] - Registering middle monomer pnipam (block identifier "A")
+2023-10-15 15:45:08.707 [INFO    :        building:line 98  ] - Registering terminal monomer pnipam_TERM2 (orientation "head")
+2023-10-15 15:45:08.730 [INFO    :        building:line 98  ] - Registering terminal monomer pnipam_TERM3 (orientation "tail")
+2023-10-15 15:45:08.754 [INFO    :        building:line 105 ] - Assembling linear polymer chain with 7 monomers (135 atoms)
+2023-10-15 15:45:08.772 [INFO    :        building:line 109 ] - Successfully assembled linear polymer chain with 7 monomers (135 atoms)
+2023-10-15 15:45:09.716 [INFO    :         pcharge:line 34  ] - Assigning partial charges via the "AM1-BCC-ELF10" method
+2023-10-15 15:52:56.209 [INFO    :         pcharge:line 37  ] - Successfully assigned "AM1-BCC-ELF10" charges
+2023-10-15 15:52:56.243 [INFO    :     calculation:line 32  ] - Selected representative residue groups
+2023-10-15 15:52:56.245 [INFO    :     calculation:line 60  ] - Accumulated charges across all matching residues
+2023-10-15 15:52:56.245 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "pnipam" according to UniformDistributionStrategy
+2023-10-15 15:52:56.245 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "pnipam_TERM2" according to UniformDistributionStrategy
+2023-10-15 15:52:56.245 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "pnipam_TERM3" according to UniformDistributionStrategy
+2023-10-15 15:52:56.246 [INFO    :     calculation:line 75  ] - Successfully computed library charges for Molecule "pnipam_modified"
+2023-10-15 15:52:56.314 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/pnipam_modified/pnipam_modified_reduced_AM1-BCC-ELF10.sdf
+2023-10-15 15:52:56.314 [INFO    :      IOHandlers:line 95  ] - Process "rct_protocol" completed in 0:07:47.730478
+

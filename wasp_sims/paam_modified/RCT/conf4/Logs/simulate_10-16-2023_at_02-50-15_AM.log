@@ -1,0 +1,33 @@
+2023-10-16 02:50:15.556 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/paam_modified/RCT/conf4/paam_modified_solv_water_TIP3P.sdf
+2023-10-16 02:50:31.420 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-16 02:50:31.422 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-16 02:52:06.335 [INFO    :       execution:line 38  ] - Initializing simulation 1/2 ("equilibration")
+2023-10-16 02:52:06.373 [INFO    :          thermo:line 92  ] - Created MonteCarloBarostat Force(s) for NPT (Isothermal-isobaric) ensemble
+2023-10-16 02:52:06.373 [INFO    :     preparation:line 32  ] - Added MonteCarloBarostat Force to System
+2023-10-16 02:52:06.375 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NPT (Isothermal-isobaric) ensemble
+2023-10-16 02:52:07.050 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_trajectory.dcd
+2023-10-16 02:52:07.051 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_checkpoint.chk
+2023-10-16 02:52:07.052 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_state.xml
+2023-10-16 02:52:07.055 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_state_data.csv
+2023-10-16 02:52:07.055 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-16 02:52:07.088 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = 615072.5586534347 kJ/mol)
+2023-10-16 02:52:44.174 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -716726.4413465653 kJ/mol)
+2023-10-16 02:52:44.946 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_topology.pdb
+2023-10-16 02:52:45.683 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/paam_modified/RCT/conf4/equilibration/equilibration_system.xml
+2023-10-16 02:52:45.683 [INFO    :       execution:line 62  ] - Integrating 50 ps OpenMM Simulation for 25000 steps
+2023-10-16 02:55:11.731 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 02:55:11.732 [INFO    :       execution:line 65  ] - 
+2023-10-16 02:55:11.736 [INFO    :       execution:line 38  ] - Initializing simulation 2/2 ("production")
+2023-10-16 02:55:11.762 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-16 02:55:12.448 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/paam_modified/RCT/conf4/production/production_trajectory.dcd
+2023-10-16 02:55:12.449 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/paam_modified/RCT/conf4/production/production_checkpoint.chk
+2023-10-16 02:55:12.450 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/paam_modified/RCT/conf4/production/production_state.xml
+2023-10-16 02:55:12.453 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/paam_modified/RCT/conf4/production/production_state_data.csv
+2023-10-16 02:55:12.453 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-16 02:55:12.490 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = -584407.9413465653 kJ/mol)
+2023-10-16 02:55:47.773 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -729285.9413465653 kJ/mol)
+2023-10-16 02:55:48.478 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/paam_modified/RCT/conf4/production/production_topology.pdb
+2023-10-16 02:55:49.192 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/paam_modified/RCT/conf4/production/production_system.xml
+2023-10-16 02:55:49.193 [INFO    :       execution:line 62  ] - Integrating 100 ns OpenMM Simulation for 50000000 steps
+2023-10-16 13:32:47.887 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 13:32:47.891 [INFO    :       execution:line 65  ] - 

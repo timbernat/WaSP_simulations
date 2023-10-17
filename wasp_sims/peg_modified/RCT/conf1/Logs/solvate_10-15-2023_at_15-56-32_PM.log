@@ -1,0 +1,7 @@
+2023-10-15 15:56:32.552 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/RCT/conf1/peg_modified_conf1.sdf
+2023-10-15 15:56:32.605 [INFO    :         packing:line 35  ] - Solvating 421.8749999999997 nm**3 Topology with 14061 water_TIP3P molecules to density of 0.997 g/(cm**3)
+2023-10-15 15:56:50.973 [INFO    :         packing:line 44  ] - Packmol packing converged
+2023-10-15 15:56:50.984 [INFO    :         packing:line 47  ] - Set solvated Topology box vectors to [[7.5 0.0 0.0] [0.0 7.5 0.0] [0.0 0.0 7.5]] nanometer
+2023-10-15 16:09:05.951 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/RCT/conf1/peg_modified_solv_water_TIP3P.sdf
+2023-10-15 16:09:05.953 [INFO    :      IOHandlers:line 95  ] - Process "solvate" completed in 0:12:33.400974
+

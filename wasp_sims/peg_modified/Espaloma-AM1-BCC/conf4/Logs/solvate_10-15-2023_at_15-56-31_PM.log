@@ -1,0 +1,7 @@
+2023-10-15 15:56:31.836 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/Espaloma-AM1-BCC/conf4/peg_modified_conf4.sdf
+2023-10-15 15:56:31.893 [INFO    :         packing:line 35  ] - Solvating 421.8749999999997 nm**3 Topology with 14061 water_TIP3P molecules to density of 0.997 g/(cm**3)
+2023-10-15 15:56:50.893 [INFO    :         packing:line 44  ] - Packmol packing converged
+2023-10-15 15:56:50.905 [INFO    :         packing:line 47  ] - Set solvated Topology box vectors to [[7.5 0.0 0.0] [0.0 7.5 0.0] [0.0 0.0 7.5]] nanometer
+2023-10-15 16:09:06.055 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf4/peg_modified_solv_water_TIP3P.sdf
+2023-10-15 16:09:06.057 [INFO    :      IOHandlers:line 95  ] - Process "solvate" completed in 0:12:34.221187
+

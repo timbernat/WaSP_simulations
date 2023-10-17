@@ -1,0 +1,6 @@
+2023-10-15 15:53:59.618 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/peg_modified.sdf
+2023-10-15 15:53:59.680 [INFO    :         pcharge:line 34  ] - Assigning partial charges via the "Espaloma-AM1-BCC" method
+2023-10-15 15:53:59.791 [INFO    :         pcharge:line 37  ] - Successfully assigned "Espaloma-AM1-BCC" charges
+2023-10-15 15:53:59.853 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/Espaloma-AM1-BCC/peg_modified_Espaloma-AM1-BCC.sdf
+2023-10-15 15:53:59.854 [INFO    :      IOHandlers:line 95  ] - Process "charge_mol" completed in 0:00:00.236156
+

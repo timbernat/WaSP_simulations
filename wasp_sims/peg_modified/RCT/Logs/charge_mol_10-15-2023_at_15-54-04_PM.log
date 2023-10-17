@@ -1,0 +1,7 @@
+2023-10-15 15:54:04.412 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/peg_modified.sdf
+2023-10-15 15:54:04.482 [INFO    :         pcharge:line 34  ] - Assigning partial charges via the "RCT" method
+2023-10-15 15:54:04.484 [INFO    :     calculation:line 88  ] - Successfully mapped residue charges onto Molecule "peg_modified"
+2023-10-15 15:54:04.484 [INFO    :         pcharge:line 37  ] - Successfully assigned "RCT" charges
+2023-10-15 15:54:04.542 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/RCT/peg_modified_RCT.sdf
+2023-10-15 15:54:04.542 [INFO    :      IOHandlers:line 95  ] - Process "charge_mol" completed in 0:00:00.130748
+

@@ -1,0 +1,2 @@
+wasp_sims/pnipam_modified/pnipam_modified.sdf
+wasp_sims/pnipam_modified/pnipam_modified_residue_charges.json

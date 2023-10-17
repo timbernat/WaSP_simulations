@@ -1,0 +1,21 @@
+2023-10-16 02:41:25.782 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/paam_modified/RCT/paam_modified_RCT.sdf
+2023-10-16 02:41:26.111 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-16 02:41:26.111 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-16 02:41:27.573 [INFO    :       execution:line 38  ] - Initializing simulation 1/1 ("anneal")
+2023-10-16 02:41:27.605 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-16 02:41:28.018 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/paam_modified/RCT/conf3/anneal/anneal_trajectory.dcd
+2023-10-16 02:41:28.019 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/paam_modified/RCT/conf3/anneal/anneal_checkpoint.chk
+2023-10-16 02:41:28.021 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/paam_modified/RCT/conf3/anneal/anneal_state.xml
+2023-10-16 02:41:28.023 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/paam_modified/RCT/conf3/anneal/anneal_state_data.csv
+2023-10-16 02:41:28.023 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-16 02:41:28.041 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = -2666.5915086372643 kJ/mol)
+2023-10-16 02:41:28.319 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -4800.983110199764 kJ/mol)
+2023-10-16 02:41:28.331 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/paam_modified/RCT/conf3/anneal/anneal_topology.pdb
+2023-10-16 02:41:28.378 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/paam_modified/RCT/conf3/anneal/anneal_system.xml
+2023-10-16 02:41:28.378 [INFO    :       execution:line 62  ] - Integrating 1 ns OpenMM Simulation for 500000 steps
+2023-10-16 02:43:09.374 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 02:43:09.375 [INFO    :       execution:line 65  ] - 
+2023-10-16 02:43:09.389 [INFO    :          anneal:line 91  ] - Transferring coordinates from anneal to "paam_modified" conformer
+2023-10-16 02:43:10.634 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/paam_modified/RCT/conf3/paam_modified_conf3.sdf
+2023-10-16 02:43:10.635 [INFO    :      IOHandlers:line 95  ] - Process "anneal" completed in 0:01:44.853217
+

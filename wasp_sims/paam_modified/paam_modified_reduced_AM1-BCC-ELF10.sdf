@@ -1,0 +1,298 @@
+paam_modified_reduced
+  -OEChem-10152316083D
+
+142141  0     1  0  0  0  0  0999 V2000
+    0.1910   -0.4850   -0.6810 C   0  0  1  0  0  0  0  0  0  0  0  0
+    1.4670    0.2350   -0.2640 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9490   -0.2940    0.5860 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2410    1.2810    0.0360 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7850   -0.5310    0.4550 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8160   -1.5350    1.2160 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6520    0.5750    0.7080 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6230    1.4240    0.1010 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3220    0.5480    1.5080 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4400   -1.5190   -1.0040 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6740   -0.4930   -1.7830 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.2670    0.0430   -1.5440 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3020    1.1300   -1.3190 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3680   -0.1260   -2.4410 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3160    0.2060   -2.9420 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0490    1.2110   -2.7410 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0680   -0.2330   -4.2780 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4440   -1.0500   -4.4620 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5050    0.2640   -5.0860 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2850   -0.3420   -0.8670 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9750   -2.0680   -2.5020 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -1.6250   -1.5840   -1.9860 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8330   -1.7690   -2.7430 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3600   -2.1090   -1.0430 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9350   -3.5390   -2.7870 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6740   -3.9440   -3.9510 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1470   -4.4840   -1.7380 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3420   -4.1630   -0.7640 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1060   -5.5080   -1.9360 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2360   -1.5120   -3.4280 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0430   -2.5840   -2.1200 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -3.7580   -1.8560   -1.7430 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3950   -2.2030   -0.7510 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9310   -0.7600   -1.7080 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -2.3180   -1.1090 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2900   -3.1190   -0.1530 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9170   -1.1390   -1.1990 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7700   -0.4540   -1.9730 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6560   -0.9480   -0.4870 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8440   -3.6760   -2.1780 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7970   -2.7440   -3.3800 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -5.3810   -2.2430   -3.1220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3540   -1.1330   -3.1470 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6830   -2.6450   -3.8870 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2790   -2.2950   -4.7260 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.9500   -1.2330   -4.8290 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9460   -3.0390   -5.8980 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3720   -3.9080   -5.8310 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2710   -2.7170   -6.8360 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4750   -2.3560   -2.5890 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1430   -4.3710   -3.8630 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -6.8120   -3.8540   -3.3300 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9720   -4.2490   -3.9410 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6730   -4.1640   -2.2720 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1880   -5.8680   -3.8090 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8560   -6.5410   -4.8210 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5630   -6.5360   -2.6050 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8190   -5.9920   -1.7520 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5810   -7.5800   -2.5660 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2780   -4.0270   -4.9110 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.2700   -4.6760   -3.5930 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -8.9720   -3.9510   -3.2550 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7270   -4.0810   -2.1790 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.0660   -2.8670   -3.4820 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.4060   -4.1300   -2.7830 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.7240   -4.6820   -1.6960 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.1050   -2.9620   -3.2150 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.8390   -2.4800   -4.1020 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.8880   -2.5750   -2.6430 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.1490   -5.7620   -3.3870 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.9110   -5.0260   -4.9610 C   0  0  1  0  0  0  0  0  0  0  0  0
+  -10.4900   -4.5550   -4.6750 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.3780   -3.4830   -4.9430 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.7600   -5.1570   -5.2560 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.2370   -4.8700   -6.4160 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.8140   -3.8260   -6.8200 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.8570   -5.8780   -7.3520 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.3580   -6.7390   -7.0350 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.0730   -5.7620   -8.3680 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.6260   -4.4320   -4.3500 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.3270   -6.6460   -5.2080 C   0  0  1  0  0  0  0  0  0  0  0  0
+  -12.0140   -6.0920   -4.6680 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1550   -6.6600   -5.0860 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.9930   -6.1600   -3.5590 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.4890   -8.0870   -4.8300 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.1200   -8.9900   -5.6270 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.0190   -8.4430   -3.5530 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.3090   -7.7060   -2.8720 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.1190   -9.4470   -3.2850 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -13.3420   -6.5440   -6.3150 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -15.4870   -6.7690   -5.1000 C   0  0  1  0  0  0  0  0  0  0  0  0
+  -14.1740   -6.0550   -4.7980 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.0350   -5.9490   -3.7010 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.1650   -5.0480   -5.2680 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.6470   -5.9930   -4.5540 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.1000   -6.2660   -3.4100 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.2140   -4.9190   -5.3030 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.8350   -4.6670   -6.2420 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -18.0140   -4.3710   -4.9160 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -15.4660   -7.7840   -4.6470 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.0210   -7.3340   -6.5190 C   0  0  1  0  0  0  0  0  0  0  0  0
+  -15.6000   -6.8860   -6.1980 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -15.3840   -5.9100   -6.6840 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -14.8680   -7.6430   -6.5530 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.2030   -7.4970   -7.9980 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.6620   -6.5430   -8.6810 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.8190   -8.7100   -8.6430 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.4150   -9.5010   -8.0930 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.9330   -8.8170   -9.6750 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.7410   -6.5800   -6.1330 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -18.5270   -8.8900   -6.5470 C   0  0  1  0  0  0  0  0  0  0  0  0
+  -17.2290   -8.2990   -6.0090 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -16.3810   -8.9910   -6.2000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -17.3130   -8.1130   -4.9170 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -18.8290  -10.1960   -5.8770 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -18.4590  -11.2750   -6.4110 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.4970  -10.2230   -4.6150 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.7890   -9.3360   -4.1490 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.6950  -11.1340   -4.1430 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -18.4350   -9.0430   -7.6440 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1780    0.2570   -1.1180 C   0  0  1  0  0  0  0  0  0  0  0  0
+    2.0130   -1.0120   -1.9470 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7330   -1.0150   -2.7930 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9780   -1.0820   -2.3440 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2090   -1.9000   -1.3100 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9210    1.4720   -1.9560 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8840    2.0630   -2.5140 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5890    1.9400   -2.1610 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2220    1.4480   -1.7230 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4100    2.7790   -2.7560 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2090    0.2950   -0.7050 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -20.6900   -8.8710   -6.6380 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.3600   -8.1780   -6.3680 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.3120   -7.8320   -5.3130 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -19.2340   -7.3070   -7.0460 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -21.8330   -7.9310   -6.4010 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -22.4060   -7.9110   -5.2790 O   0  0  0  0  0  0  0  0  0  0  0  0
+  -22.2490   -7.0280   -7.4240 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -21.7700   -7.0160   -8.3520 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -23.0370   -6.3640   -7.2530 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -20.7860   -9.7560   -5.9720 H   0  0  0  0  0  0  0  0  0  0  0  0
+  -20.7140   -9.2290   -7.6890 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 12  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2121  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 15  1  0  0  0  0
+ 11 20  1  0  0  0  0
+ 11 22  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 15 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 17 19  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 21 25  1  0  0  0  0
+ 21 30  1  0  0  0  0
+ 21 32  1  0  0  0  0
+ 22 23  1  0  0  0  0
+ 22 24  1  0  0  0  0
+ 25 26  2  0  0  0  0
+ 25 27  1  0  0  0  0
+ 27 28  1  0  0  0  0
+ 27 29  1  0  0  0  0
+ 31 32  1  0  0  0  0
+ 31 35  1  0  0  0  0
+ 31 40  1  0  0  0  0
+ 31 42  1  0  0  0  0
+ 32 33  1  0  0  0  0
+ 32 34  1  0  0  0  0
+ 35 36  2  0  0  0  0
+ 35 37  1  0  0  0  0
+ 37 38  1  0  0  0  0
+ 37 39  1  0  0  0  0
+ 41 42  1  0  0  0  0
+ 41 45  1  0  0  0  0
+ 41 50  1  0  0  0  0
+ 41 52  1  0  0  0  0
+ 42 43  1  0  0  0  0
+ 42 44  1  0  0  0  0
+ 45 46  2  0  0  0  0
+ 45 47  1  0  0  0  0
+ 47 48  1  0  0  0  0
+ 47 49  1  0  0  0  0
+ 51 52  1  0  0  0  0
+ 51 55  1  0  0  0  0
+ 51 60  1  0  0  0  0
+ 51 62  1  0  0  0  0
+ 52 53  1  0  0  0  0
+ 52 54  1  0  0  0  0
+ 55 56  2  0  0  0  0
+ 55 57  1  0  0  0  0
+ 57 58  1  0  0  0  0
+ 57 59  1  0  0  0  0
+ 61 62  1  0  0  0  0
+ 61 65  1  0  0  0  0
+ 61 70  1  0  0  0  0
+ 61 72  1  0  0  0  0
+ 62 63  1  0  0  0  0
+ 62 64  1  0  0  0  0
+ 65 66  2  0  0  0  0
+ 65 67  1  0  0  0  0
+ 67 68  1  0  0  0  0
+ 67 69  1  0  0  0  0
+ 71 72  1  0  0  0  0
+ 71 75  1  0  0  0  0
+ 71 80  1  0  0  0  0
+ 71 82  1  0  0  0  0
+ 72 73  1  0  0  0  0
+ 72 74  1  0  0  0  0
+ 75 76  2  0  0  0  0
+ 75 77  1  0  0  0  0
+ 77 78  1  0  0  0  0
+ 77 79  1  0  0  0  0
+ 81 82  1  0  0  0  0
+ 81 85  1  0  0  0  0
+ 81 90  1  0  0  0  0
+ 81 92  1  0  0  0  0
+ 82 83  1  0  0  0  0
+ 82 84  1  0  0  0  0
+ 85 86  2  0  0  0  0
+ 85 87  1  0  0  0  0
+ 87 88  1  0  0  0  0
+ 87 89  1  0  0  0  0
+ 91 92  1  0  0  0  0
+ 91 95  1  0  0  0  0
+ 91100  1  0  0  0  0
+ 91102  1  0  0  0  0
+ 92 93  1  0  0  0  0
+ 92 94  1  0  0  0  0
+ 95 96  2  0  0  0  0
+ 95 97  1  0  0  0  0
+ 97 98  1  0  0  0  0
+ 97 99  1  0  0  0  0
+101102  1  0  0  0  0
+101105  1  0  0  0  0
+101110  1  0  0  0  0
+101112  1  0  0  0  0
+102103  1  0  0  0  0
+102104  1  0  0  0  0
+105106  2  0  0  0  0
+105107  1  0  0  0  0
+107108  1  0  0  0  0
+107109  1  0  0  0  0
+111112  1  0  0  0  0
+111115  1  0  0  0  0
+111120  1  0  0  0  0
+111133  1  0  0  0  0
+112113  1  0  0  0  0
+112114  1  0  0  0  0
+115116  2  0  0  0  0
+115117  1  0  0  0  0
+117118  1  0  0  0  0
+117119  1  0  0  0  0
+121122  1  0  0  0  0
+121126  1  0  0  0  0
+121131  1  0  0  0  0
+122123  1  0  0  0  0
+122124  1  0  0  0  0
+122125  1  0  0  0  0
+126127  2  0  0  0  0
+126128  1  0  0  0  0
+128129  1  0  0  0  0
+128130  1  0  0  0  0
+132133  1  0  0  0  0
+132136  1  0  0  0  0
+132141  1  0  0  0  0
+132142  1  0  0  0  0
+133134  1  0  0  0  0
+133135  1  0  0  0  0
+136137  2  0  0  0  0
+136138  1  0  0  0  0
+138139  1  0  0  0  0
+138140  1  0  0  0  0
+M  END
+> <charge_method>
+AM1-BCC-ELF10
+
+> <metadata>
+{0: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"14": ["paam", 0], "15": ["paam", 0]}', 'substructure_query_id': 0}, 1: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"14": ["paam", 1], "38": ["paam", 1]}', 'substructure_query_id': 1}, 2: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"14": ["paam", 2], "38": ["paam", 2]}', 'substructure_query_id': 2}, 3: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"14": ["paam", 3], "38": ["paam", 3]}', 'substructure_query_id': 3}, 4: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"0": ["NH2", 1], "14": ["paam", 5], "15": ["paam", 5]}', 'substructure_query_id': 5}, 5: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"0": ["NH2", 2], "14": ["paam", 6], "15": ["paam", 6]}', 'substructure_query_id': 6}, 6: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"0": ["NH2", 3], "14": ["paam", 7], "15": ["paam", 7]}', 'substructure_query_id': 7}, 7: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"0": ["NH2", 4], "14": ["paam", 8], "15": ["paam", 8]}', 'substructure_query_id': 8}, 8: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"0": ["NH2", 5], "14": ["paam", 9], "15": ["paam", 9]}', 'substructure_query_id': 9}, 9: {'residue_name': 'paam', 'residue_number': 14, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"14": ["paam", 10], "15": ["paam", 10]}', 'substructure_query_id': 10}, 10: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"16": ["paam", 0], "17": ["paam", 0]}', 'substructure_query_id': 0}, 11: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"15": ["paam", 1], "16": ["paam", 1]}', 'substructure_query_id': 1}, 12: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"15": ["paam", 2], "16": ["paam", 2]}', 'substructure_query_id': 2}, 13: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"15": ["paam", 3], "16": ["paam", 3]}', 'substructure_query_id': 3}, 14: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"1": ["NH2", 1], "16": ["paam", 5], "17": ["paam", 5]}', 'substructure_query_id': 5}, 15: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"1": ["NH2", 2], "16": ["paam", 6], "17": ["paam", 6]}', 'substructure_query_id': 6}, 16: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"1": ["NH2", 3], "16": ["paam", 7], "17": ["paam", 7]}', 'substructure_query_id': 7}, 17: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"1": ["NH2", 4], "16": ["paam", 8], "17": ["paam", 8]}', 'substructure_query_id': 8}, 18: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"1": ["NH2", 5], "16": ["paam", 9], "17": ["paam", 9]}', 'substructure_query_id': 9}, 19: {'residue_name': 'paam', 'residue_number': 16, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"16": ["paam", 10], "17": ["paam", 10]}', 'substructure_query_id': 10}, 20: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"18": ["paam", 0], "19": ["paam", 0]}', 'substructure_query_id': 0}, 21: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"17": ["paam", 1], "18": ["paam", 1]}', 'substructure_query_id': 1}, 22: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"17": ["paam", 2], "18": ["paam", 2]}', 'substructure_query_id': 2}, 23: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"17": ["paam", 3], "18": ["paam", 3]}', 'substructure_query_id': 3}, 24: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"2": ["NH2", 1], "18": ["paam", 5], "19": ["paam", 5]}', 'substructure_query_id': 5}, 25: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"2": ["NH2", 2], "18": ["paam", 6], "19": ["paam", 6]}', 'substructure_query_id': 6}, 26: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"2": ["NH2", 3], "18": ["paam", 7], "19": ["paam", 7]}', 'substructure_query_id': 7}, 27: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"2": ["NH2", 4], "18": ["paam", 8], "19": ["paam", 8]}', 'substructure_query_id': 8}, 28: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"2": ["NH2", 5], "18": ["paam", 9], "19": ["paam", 9]}', 'substructure_query_id': 9}, 29: {'residue_name': 'paam', 'residue_number': 18, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"18": ["paam", 10], "19": ["paam", 10]}', 'substructure_query_id': 10}, 30: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"20": ["paam", 0], "21": ["paam", 0]}', 'substructure_query_id': 0}, 31: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"19": ["paam", 1], "20": ["paam", 1]}', 'substructure_query_id': 1}, 32: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"19": ["paam", 2], "20": ["paam", 2]}', 'substructure_query_id': 2}, 33: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"19": ["paam", 3], "20": ["paam", 3]}', 'substructure_query_id': 3}, 34: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"3": ["NH2", 1], "20": ["paam", 5], "21": ["paam", 5]}', 'substructure_query_id': 5}, 35: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"3": ["NH2", 2], "20": ["paam", 6], "21": ["paam", 6]}', 'substructure_query_id': 6}, 36: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"3": ["NH2", 3], "20": ["paam", 7], "21": ["paam", 7]}', 'substructure_query_id': 7}, 37: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"3": ["NH2", 4], "20": ["paam", 8], "21": ["paam", 8]}', 'substructure_query_id': 8}, 38: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"3": ["NH2", 5], "20": ["paam", 9], "21": ["paam", 9]}', 'substructure_query_id': 9}, 39: {'residue_name': 'paam', 'residue_number': 20, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"20": ["paam", 10], "21": ["paam", 10]}', 'substructure_query_id': 10}, 40: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"22": ["paam", 0], "23": ["paam", 0]}', 'substructure_query_id': 0}, 41: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"21": ["paam", 1], "22": ["paam", 1]}', 'substructure_query_id': 1}, 42: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"21": ["paam", 2], "22": ["paam", 2]}', 'substructure_query_id': 2}, 43: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"21": ["paam", 3], "22": ["paam", 3]}', 'substructure_query_id': 3}, 44: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"4": ["NH2", 1], "22": ["paam", 5], "23": ["paam", 5]}', 'substructure_query_id': 5}, 45: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"4": ["NH2", 2], "22": ["paam", 6], "23": ["paam", 6]}', 'substructure_query_id': 6}, 46: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"4": ["NH2", 3], "22": ["paam", 7], "23": ["paam", 7]}', 'substructure_query_id': 7}, 47: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"4": ["NH2", 4], "22": ["paam", 8], "23": ["paam", 8]}', 'substructure_query_id': 8}, 48: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"4": ["NH2", 5], "22": ["paam", 9], "23": ["paam", 9]}', 'substructure_query_id': 9}, 49: {'residue_name': 'paam', 'residue_number': 22, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"22": ["paam", 10], "23": ["paam", 10]}', 'substructure_query_id': 10}, 50: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"24": ["paam", 0], "25": ["paam", 0]}', 'substructure_query_id': 0}, 51: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"23": ["paam", 1], "24": ["paam", 1]}', 'substructure_query_id': 1}, 52: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"23": ["paam", 2], "24": ["paam", 2]}', 'substructure_query_id': 2}, 53: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"23": ["paam", 3], "24": ["paam", 3]}', 'substructure_query_id': 3}, 54: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"5": ["NH2", 1], "24": ["paam", 5], "25": ["paam", 5]}', 'substructure_query_id': 5}, 55: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"5": ["NH2", 2], "24": ["paam", 6], "25": ["paam", 6]}', 'substructure_query_id': 6}, 56: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"5": ["NH2", 3], "24": ["paam", 7], "25": ["paam", 7]}', 'substructure_query_id': 7}, 57: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"5": ["NH2", 4], "24": ["paam", 8], "25": ["paam", 8]}', 'substructure_query_id': 8}, 58: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"5": ["NH2", 5], "24": ["paam", 9], "25": ["paam", 9]}', 'substructure_query_id': 9}, 59: {'residue_name': 'paam', 'residue_number': 24, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"24": ["paam", 10], "25": ["paam", 10]}', 'substructure_query_id': 10}, 60: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"26": ["paam", 0], "27": ["paam", 0]}', 'substructure_query_id': 0}, 61: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"25": ["paam", 1], "26": ["paam", 1]}', 'substructure_query_id': 1}, 62: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"25": ["paam", 2], "26": ["paam", 2]}', 'substructure_query_id': 2}, 63: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"25": ["paam", 3], "26": ["paam", 3]}', 'substructure_query_id': 3}, 64: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"6": ["NH2", 1], "26": ["paam", 5], "27": ["paam", 5]}', 'substructure_query_id': 5}, 65: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"6": ["NH2", 2], "26": ["paam", 6], "27": ["paam", 6]}', 'substructure_query_id': 6}, 66: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"6": ["NH2", 3], "26": ["paam", 7], "27": ["paam", 7]}', 'substructure_query_id': 7}, 67: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"6": ["NH2", 4], "26": ["paam", 8], "27": ["paam", 8]}', 'substructure_query_id': 8}, 68: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"6": ["NH2", 5], "26": ["paam", 9], "27": ["paam", 9]}', 'substructure_query_id': 9}, 69: {'residue_name': 'paam', 'residue_number': 26, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"26": ["paam", 10], "27": ["paam", 10]}', 'substructure_query_id': 10}, 70: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"28": ["paam", 0], "29": ["paam", 0]}', 'substructure_query_id': 0}, 71: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"27": ["paam", 1], "28": ["paam", 1]}', 'substructure_query_id': 1}, 72: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"27": ["paam", 2], "28": ["paam", 2]}', 'substructure_query_id': 2}, 73: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"27": ["paam", 3], "28": ["paam", 3]}', 'substructure_query_id': 3}, 74: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"7": ["NH2", 1], "28": ["paam", 5], "29": ["paam", 5]}', 'substructure_query_id': 5}, 75: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"7": ["NH2", 2], "28": ["paam", 6], "29": ["paam", 6]}', 'substructure_query_id': 6}, 76: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"7": ["NH2", 3], "28": ["paam", 7], "29": ["paam", 7]}', 'substructure_query_id': 7}, 77: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"7": ["NH2", 4], "28": ["paam", 8], "29": ["paam", 8]}', 'substructure_query_id': 8}, 78: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"7": ["NH2", 5], "28": ["paam", 9], "29": ["paam", 9]}', 'substructure_query_id': 9}, 79: {'residue_name': 'paam', 'residue_number': 28, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"28": ["paam", 10], "29": ["paam", 10]}', 'substructure_query_id': 10}, 80: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"30": ["paam", 0], "31": ["paam", 0]}', 'substructure_query_id': 0}, 81: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"29": ["paam", 1], "30": ["paam", 1]}', 'substructure_query_id': 1}, 82: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"29": ["paam", 2], "30": ["paam", 2]}', 'substructure_query_id': 2}, 83: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"29": ["paam", 3], "30": ["paam", 3]}', 'substructure_query_id': 3}, 84: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"8": ["NH2", 1], "30": ["paam", 5], "31": ["paam", 5]}', 'substructure_query_id': 5}, 85: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"8": ["NH2", 2], "30": ["paam", 6], "31": ["paam", 6]}', 'substructure_query_id': 6}, 86: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"8": ["NH2", 3], "30": ["paam", 7], "31": ["paam", 7]}', 'substructure_query_id': 7}, 87: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"8": ["NH2", 4], "30": ["paam", 8], "31": ["paam", 8]}', 'substructure_query_id': 8}, 88: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"8": ["NH2", 5], "30": ["paam", 9], "31": ["paam", 9]}', 'substructure_query_id': 9}, 89: {'residue_name': 'paam', 'residue_number': 30, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"30": ["paam", 10], "31": ["paam", 10]}', 'substructure_query_id': 10}, 90: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"32": ["paam", 0], "33": ["paam", 0]}', 'substructure_query_id': 0}, 91: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"31": ["paam", 1], "32": ["paam", 1]}', 'substructure_query_id': 1}, 92: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"31": ["paam", 2], "32": ["paam", 2]}', 'substructure_query_id': 2}, 93: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"31": ["paam", 3], "32": ["paam", 3]}', 'substructure_query_id': 3}, 94: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"9": ["NH2", 1], "32": ["paam", 5], "33": ["paam", 5]}', 'substructure_query_id': 5}, 95: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"9": ["NH2", 2], "32": ["paam", 6], "33": ["paam", 6]}', 'substructure_query_id': 6}, 96: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"9": ["NH2", 3], "32": ["paam", 7], "33": ["paam", 7]}', 'substructure_query_id': 7}, 97: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"9": ["NH2", 4], "32": ["paam", 8], "33": ["paam", 8]}', 'substructure_query_id': 8}, 98: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"9": ["NH2", 5], "32": ["paam", 9], "33": ["paam", 9]}', 'substructure_query_id': 9}, 99: {'residue_name': 'paam', 'residue_number': 32, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"32": ["paam", 10], "33": ["paam", 10]}', 'substructure_query_id': 10}, 100: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"34": ["paam", 0], "35": ["paam", 0]}', 'substructure_query_id': 0}, 101: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"33": ["paam", 1], "34": ["paam", 1]}', 'substructure_query_id': 1}, 102: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"33": ["paam", 2], "34": ["paam", 2]}', 'substructure_query_id': 2}, 103: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"33": ["paam", 3], "34": ["paam", 3]}', 'substructure_query_id': 3}, 104: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"10": ["NH2", 1], "34": ["paam", 5], "35": ["paam", 5]}', 'substructure_query_id': 5}, 105: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"10": ["NH2", 2], "34": ["paam", 6], "35": ["paam", 6]}', 'substructure_query_id': 6}, 106: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"10": ["NH2", 3], "34": ["paam", 7], "35": ["paam", 7]}', 'substructure_query_id': 7}, 107: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"10": ["NH2", 4], "34": ["paam", 8], "35": ["paam", 8]}', 'substructure_query_id': 8}, 108: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"10": ["NH2", 5], "34": ["paam", 9], "35": ["paam", 9]}', 'substructure_query_id': 9}, 109: {'residue_name': 'paam', 'residue_number': 34, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"34": ["paam", 10], "35": ["paam", 10]}', 'substructure_query_id': 10}, 110: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"36": ["paam", 0], "37": ["paam", 0]}', 'substructure_query_id': 0}, 111: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"35": ["paam", 1], "36": ["paam", 1]}', 'substructure_query_id': 1}, 112: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"35": ["paam", 2], "36": ["paam", 2]}', 'substructure_query_id': 2}, 113: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"35": ["paam", 3], "36": ["paam", 3]}', 'substructure_query_id': 3}, 114: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"11": ["NH2", 1], "36": ["paam", 5], "37": ["paam", 5]}', 'substructure_query_id': 5}, 115: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"11": ["NH2", 2], "36": ["paam", 6], "37": ["paam", 6]}', 'substructure_query_id': 6}, 116: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"11": ["NH2", 3], "36": ["paam", 7], "37": ["paam", 7]}', 'substructure_query_id': 7}, 117: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"11": ["NH2", 4], "36": ["paam", 8], "37": ["paam", 8]}', 'substructure_query_id': 8}, 118: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"11": ["NH2", 5], "36": ["paam", 9], "37": ["paam", 9]}', 'substructure_query_id': 9}, 119: {'residue_name': 'paam', 'residue_number': 36, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"36": ["paam", 10], "37": ["paam", 10]}', 'substructure_query_id': 10}, 120: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"38": ["paam", 0], "39": ["paam", 0], "41": ["paam_TERM2", 0]}', 'substructure_query_id': 0}, 121: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"39": ["paam", 1], "41": ["paam_TERM2", 1]}', 'substructure_query_id': 1}, 122: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"39": ["paam", 2], "41": ["paam_TERM2", 2]}', 'substructure_query_id': 2}, 123: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"39": ["paam", 3], "41": ["paam_TERM2", 3]}', 'substructure_query_id': 3}, 124: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"41": ["paam_TERM2", 4]}', 'substructure_query_id': 4}, 125: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"12": ["NH2", 1], "38": ["paam", 5], "39": ["paam", 5], "41": ["paam_TERM2", 5]}', 'substructure_query_id': 5}, 126: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"12": ["NH2", 2], "38": ["paam", 6], "39": ["paam", 6], "41": ["paam_TERM2", 6]}', 'substructure_query_id': 6}, 127: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"12": ["NH2", 3], "38": ["paam", 7], "39": ["paam", 7], "41": ["paam_TERM2", 7]}', 'substructure_query_id': 7}, 128: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"12": ["NH2", 4], "38": ["paam", 8], "39": ["paam", 8], "41": ["paam_TERM2", 8]}', 'substructure_query_id': 8}, 129: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"12": ["NH2", 5], "38": ["paam", 9], "39": ["paam", 9], "41": ["paam_TERM2", 9]}', 'substructure_query_id': 9}, 130: {'residue_name': 'paam_TERM2', 'residue_number': 41, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"38": ["paam", 10], "39": ["paam", 10], "41": ["paam_TERM2", 10]}', 'substructure_query_id': 10}, 131: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"40": ["paam", 0], "42": ["paam_TERM3", 0]}', 'substructure_query_id': 0}, 132: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"37": ["paam", 1], "40": ["paam", 1], "42": ["paam_TERM3", 1]}', 'substructure_query_id': 1}, 133: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"37": ["paam", 2], "40": ["paam", 2], "42": ["paam_TERM3", 2]}', 'substructure_query_id': 2}, 134: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"37": ["paam", 3], "40": ["paam", 3], "42": ["paam_TERM3", 3]}', 'substructure_query_id': 3}, 135: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"13": ["NH2", 1], "40": ["paam", 5], "42": ["paam_TERM3", 5]}', 'substructure_query_id': 5}, 136: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"13": ["NH2", 2], "40": ["paam", 6], "42": ["paam_TERM3", 6]}', 'substructure_query_id': 6}, 137: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"13": ["NH2", 3], "40": ["paam", 7], "42": ["paam_TERM3", 7]}', 'substructure_query_id': 7}, 138: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"13": ["NH2", 4], "40": ["paam", 8], "42": ["paam_TERM3", 8]}', 'substructure_query_id': 8}, 139: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"13": ["NH2", 5], "40": ["paam", 9], "42": ["paam_TERM3", 9]}', 'substructure_query_id': 9}, 140: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"40": ["paam", 10], "42": ["paam_TERM3", 10]}', 'substructure_query_id': 10}, 141: {'residue_name': 'paam_TERM3', 'residue_number': 42, 'insertion_code': ' ', 'chain_id': 'A', 'match_info': '{"42": ["paam_TERM3", 11]}', 'substructure_query_id': 11}}
+
+> <atom.dprop.PartialCharge>
+-0.138390 -0.071340 0.059630 0.059630 0.650850 -0.648420 -0.632960 0.318830 0.318830 0.086970 -0.132280 -0.068430 0.060190 0.060190 0.653040 -0.625500 -0.652980 0.313340 0.313340 0.079510 -0.136920 -0.071550 0.058400 0.058400 0.652320 -0.595690 -0.673390 0.310330 0.310330 0.092990 -0.139120 -0.069060 0.048610 0.048610 0.653270 -0.595050 -0.673140 0.311620 0.311620 0.094110 -0.141820 -0.070250 0.050410 0.050410 0.652000 -0.591850 -0.675310 0.312440 0.312440 0.102800 -0.126830 -0.070100 0.048250 0.048250 0.652040 -0.609660 -0.670870 0.316840 0.316840 0.069380 -0.130130 -0.074910 0.065520 0.065520 0.653130 -0.631890 -0.654020 0.316770 0.316770 0.094710 -0.140180 -0.063400 0.054620 0.054620 0.651820 -0.607140 -0.649490 0.307840 0.307840 0.096150 -0.120520 -0.061570 0.052010 0.052010 0.649330 -0.591570 -0.674330 0.308830 0.308830 0.048680 -0.128390 -0.080280 0.079910 0.079910 0.630010 -0.591990 -0.640660 0.305330 0.305330 0.056040 -0.141740 -0.071390 0.060560 0.060560 0.640150 -0.636820 -0.630010 0.315890 0.315890 0.082280 -0.138690 -0.066680 0.054160 0.054160 0.649690 -0.615190 -0.650190 0.311140 0.311140 0.086390 -0.128200 -0.092530 0.046390 0.046390 0.046390 0.661480 -0.624810 -0.665490 0.312350 0.312350 0.066570 -0.157900 -0.063150 0.056150 0.056150 0.656360 -0.617440 -0.674670 0.311270 0.311270 0.076280 0.076280
+
+$$$$

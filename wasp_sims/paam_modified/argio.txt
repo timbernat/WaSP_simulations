@@ -1,0 +1,2 @@
+wasp_sims/paam_modified/paam_modified.sdf
+wasp_sims/paam_modified/paam_modified_residue_charges.json

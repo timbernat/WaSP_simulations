@@ -1,0 +1,7 @@
+2023-10-15 15:53:16.520 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/pnipam_modified/pnipam_modified_reduced_AM1-BCC-ELF10.sdf
+2023-10-15 15:53:16.548 [INFO    :         pcharge:line 34  ] - Assigning partial charges via the "RCT" method
+2023-10-15 15:53:16.549 [INFO    :     calculation:line 88  ] - Successfully mapped residue charges onto Molecule "pnipam_modified_reduced"
+2023-10-15 15:53:16.549 [INFO    :         pcharge:line 37  ] - Successfully assigned "RCT" charges
+2023-10-15 15:53:16.588 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/pnipam_modified/pnipam_modified_reduced_RCT.sdf
+2023-10-15 15:53:16.588 [INFO    :      IOHandlers:line 95  ] - Process "charge_mol" completed in 0:00:00.068715
+

@@ -1,0 +1,21 @@
+2023-10-15 15:54:18.046 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/peg_modified/Espaloma-AM1-BCC/peg_modified_Espaloma-AM1-BCC.sdf
+2023-10-15 15:54:18.348 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-15 15:54:18.348 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-15 15:54:19.225 [INFO    :       execution:line 38  ] - Initializing simulation 1/1 ("anneal")
+2023-10-15 15:54:19.251 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-15 15:54:19.764 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_trajectory.dcd
+2023-10-15 15:54:19.765 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_checkpoint.chk
+2023-10-15 15:54:19.767 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_state.xml
+2023-10-15 15:54:19.769 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_state_data.csv
+2023-10-15 15:54:19.769 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-15 15:54:19.845 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = 4160.911907825946 kJ/mol)
+2023-10-15 15:54:20.435 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = 2948.869915638446 kJ/mol)
+2023-10-15 15:54:20.446 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_topology.pdb
+2023-10-15 15:54:20.477 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/anneal/anneal_system.xml
+2023-10-15 15:54:20.477 [INFO    :       execution:line 62  ] - Integrating 1 ns OpenMM Simulation for 500000 steps
+2023-10-15 15:55:58.507 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-15 15:55:58.508 [INFO    :       execution:line 65  ] - 
+2023-10-15 15:55:58.515 [INFO    :          anneal:line 91  ] - Transferring coordinates from anneal to "peg_modified" conformer
+2023-10-15 15:55:58.961 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/Espaloma-AM1-BCC/conf2/peg_modified_conf2.sdf
+2023-10-15 15:55:58.961 [INFO    :      IOHandlers:line 95  ] - Process "anneal" completed in 0:01:40.915815
+

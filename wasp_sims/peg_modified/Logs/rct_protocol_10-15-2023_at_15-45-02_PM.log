@@ -1,0 +1,17 @@
+2023-10-15 15:45:02.413 [INFO    :        building:line 77  ] - Using pre-defined terminal group orientation {'peg_TERM2': 'head', 'peg_TERM3': 'tail'}
+2023-10-15 15:45:02.414 [INFO    :        building:line 88  ] - Registering middle monomer peg (block identifier "A")
+2023-10-15 15:45:02.497 [INFO    :        building:line 98  ] - Registering terminal monomer peg_TERM2 (orientation "head")
+2023-10-15 15:45:02.505 [INFO    :        building:line 98  ] - Registering terminal monomer peg_TERM3 (orientation "tail")
+2023-10-15 15:45:02.515 [INFO    :        building:line 105 ] - Assembling linear polymer chain with 20 monomers (149 atoms)
+2023-10-15 15:45:02.559 [INFO    :        building:line 109 ] - Successfully assembled linear polymer chain with 20 monomers (149 atoms)
+2023-10-15 15:45:03.413 [INFO    :         pcharge:line 34  ] - Assigning partial charges via the "AM1-BCC-ELF10" method
+2023-10-15 15:53:18.496 [INFO    :         pcharge:line 37  ] - Successfully assigned "AM1-BCC-ELF10" charges
+2023-10-15 15:53:18.526 [INFO    :     calculation:line 32  ] - Selected representative residue groups
+2023-10-15 15:53:18.527 [INFO    :     calculation:line 60  ] - Accumulated charges across all matching residues
+2023-10-15 15:53:18.528 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "peg" according to UniformDistributionStrategy
+2023-10-15 15:53:18.528 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "peg_TERM2" according to UniformDistributionStrategy
+2023-10-15 15:53:18.528 [INFO    :     calculation:line 70  ] - Redistributing charges for residue "peg_TERM3" according to UniformDistributionStrategy
+2023-10-15 15:53:18.528 [INFO    :     calculation:line 75  ] - Successfully computed library charges for Molecule "peg_modified"
+2023-10-15 15:53:18.580 [INFO    :        topology:line 89  ] - Successfully serialized SDF Topology to wasp_sims/peg_modified/peg_modified_reduced_AM1-BCC-ELF10.sdf
+2023-10-15 15:53:18.580 [INFO    :      IOHandlers:line 95  ] - Process "rct_protocol" completed in 0:08:16.173956
+

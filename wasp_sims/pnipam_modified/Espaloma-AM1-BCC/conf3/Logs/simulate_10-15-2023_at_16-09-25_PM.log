@@ -1,0 +1,33 @@
+2023-10-15 16:09:25.501 [INFO    :        topology:line 96  ] - Loading serialized SDF Topology from wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/pnipam_modified_solv_water_TIP3P.sdf
+2023-10-15 16:09:41.819 [INFO    :      parameters:line 2993] - Attempting to up-convert Electrostatics section from 0.3 to 0.4
+2023-10-15 16:09:41.820 [INFO    :      parameters:line 3003] - Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+2023-10-15 16:11:20.791 [INFO    :       execution:line 38  ] - Initializing simulation 1/2 ("equilibration")
+2023-10-15 16:11:20.846 [INFO    :          thermo:line 92  ] - Created MonteCarloBarostat Force(s) for NPT (Isothermal-isobaric) ensemble
+2023-10-15 16:11:20.847 [INFO    :     preparation:line 32  ] - Added MonteCarloBarostat Force to System
+2023-10-15 16:11:20.849 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NPT (Isothermal-isobaric) ensemble
+2023-10-15 16:11:21.649 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_trajectory.dcd
+2023-10-15 16:11:21.650 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_checkpoint.chk
+2023-10-15 16:11:21.651 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_state.xml
+2023-10-15 16:11:21.654 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_state_data.csv
+2023-10-15 16:11:21.654 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-15 16:11:21.699 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = 629391.4723729631 kJ/mol)
+2023-10-15 16:11:57.096 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -712518.0276270369 kJ/mol)
+2023-10-15 16:11:57.793 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_topology.pdb
+2023-10-15 16:11:58.616 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/equilibration/equilibration_system.xml
+2023-10-15 16:11:58.617 [INFO    :       execution:line 62  ] - Integrating 50 ps OpenMM Simulation for 25000 steps
+2023-10-15 16:14:31.435 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-15 16:14:31.437 [INFO    :       execution:line 65  ] - 
+2023-10-15 16:14:31.441 [INFO    :       execution:line 38  ] - Initializing simulation 2/2 ("production")
+2023-10-15 16:14:31.486 [INFO    :          thermo:line 83  ] - Created LangevinMiddleIntegrator for NVT (Canonical) ensemble
+2023-10-15 16:14:32.248 [INFO    :       reporters:line 127 ] - Prepared DCDReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_trajectory.dcd
+2023-10-15 16:14:32.249 [INFO    :       reporters:line 127 ] - Prepared CheckpointReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_checkpoint.chk
+2023-10-15 16:14:32.250 [INFO    :       reporters:line 127 ] - Prepared StateReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_state.xml
+2023-10-15 16:14:32.253 [INFO    :       reporters:line 127 ] - Prepared StateDataReporter which reports to wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_state_data.csv
+2023-10-15 16:14:32.253 [INFO    :     preparation:line 62  ] - Setting positions in Context
+2023-10-15 16:14:32.284 [INFO    :       execution:line 52  ] - Performing energy minimization (initial PE = -573179.0276270369 kJ/mol)
+2023-10-15 16:14:58.607 [INFO    :       execution:line 54  ] - Energy successfully minimized (final PE = -724898.0276270369 kJ/mol)
+2023-10-15 16:15:01.105 [INFO    :       execution:line 57  ] - Saved energy-minimized Simulation Topology at wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_topology.pdb
+2023-10-15 16:15:02.038 [INFO    :       execution:line 60  ] - Saved serialized Simulation System at wasp_sims/pnipam_modified/Espaloma-AM1-BCC/conf3/production/production_system.xml
+2023-10-15 16:15:02.039 [INFO    :       execution:line 62  ] - Integrating 100 ns OpenMM Simulation for 50000000 steps
+2023-10-16 02:43:12.897 [INFO    :       execution:line 64  ] - Simulation integration completed successfully
+2023-10-16 02:43:12.900 [INFO    :       execution:line 65  ] - 
