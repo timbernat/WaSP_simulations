@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 import argparse
 import logging
-from polysaccharide2.genutils.logutils.IOHandlers import LOG_FORMATTER
+from polymerist.genutils.logutils.IOHandlers import LOG_FORMATTER
 logging.basicConfig(
     level=logging.INFO,
     format =LOG_FORMATTER._fmt,
@@ -18,11 +18,11 @@ LOGGER = logging.getLogger(__name__)
 
 from pathlib import Path
 
-from polysaccharide2.genutils.logutils.IOHandlers import MSFHandlerFlex
-from polysaccharide2.genutils.fileutils.pathutils import assemble_path
-from polysaccharide2.openfftools import topology
-from polysaccharide2.openfftools.pcharge import MolCharger
-from polysaccharide2.residues.rescharge.rctypes import ChargesByResidue
+from polymerist.genutils.logutils.IOHandlers import MSFHandlerFlex
+from polymerist.genutils.fileutils.pathutils import assemble_path
+from polymerist.openfftools import topology
+from polymerist.openfftools.pcharge import MolCharger
+from polymerist.residues.rescharge.rctypes import ChargesByResidue
 
 
 def parse_args() -> argparse.Namespace:

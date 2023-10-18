@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 import argparse
 import logging
-from polysaccharide2.genutils.logutils.IOHandlers import LOG_FORMATTER
+from polymerist.genutils.logutils.IOHandlers import LOG_FORMATTER
 logging.basicConfig(
     level=logging.INFO,
     format =LOG_FORMATTER._fmt,
@@ -23,18 +23,18 @@ import openmm.unit
 from openmm.unit import nanometer, Unit
 
 import mdtraj
-from polysaccharide2.analysis import mdtrajutils
+from polymerist.analysis import mdtrajutils
 
-from polysaccharide2.genutils.logutils.IOHandlers import MSFHandlerFlex
-from polysaccharide2.genutils.fileutils.pathutils import assemble_path
+from polymerist.genutils.logutils.IOHandlers import MSFHandlerFlex
+from polymerist.genutils.fileutils.pathutils import assemble_path
 
-from polysaccharide2.openmmtools.serialization import SimulationPaths
-from polysaccharide2.openmmtools.parameters import SimulationParameters
+from polymerist.openmmtools.serialization import SimulationPaths
+from polymerist.openmmtools.parameters import SimulationParameters
 
-from polysaccharide2.openfftools import topology
-from polysaccharide2.openmmtools import parameters, execution
-from polysaccharide2.openfftools.solvation import boxvectors
-from polysaccharide2.openfftools.omminter import openff_topology_to_openmm
+from polymerist.openfftools import topology
+from polymerist.openmmtools import parameters, execution
+from polymerist.openfftools.solvation import boxvectors
+from polymerist.openfftools.omminter import openff_topology_to_openmm
 
 
 class ParseKwargs(argparse.Action):

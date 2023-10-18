@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 import argparse
 import logging
-from polysaccharide2.genutils.logutils.IOHandlers import LOG_FORMATTER
+from polymerist.genutils.logutils.IOHandlers import LOG_FORMATTER
 logging.basicConfig(
     level=logging.INFO,
     format =LOG_FORMATTER._fmt,
@@ -22,12 +22,12 @@ from pathlib import Path
 import openmm.unit
 from openmm.unit import gram, centimeter
 
-from polysaccharide2.genutils.logutils.IOHandlers import MSFHandlerFlex
-from polysaccharide2.genutils.fileutils.pathutils import assemble_path
+from polymerist.genutils.logutils.IOHandlers import MSFHandlerFlex
+from polymerist.genutils.fileutils.pathutils import assemble_path
 
-from polysaccharide2.openfftools import topology
-from polysaccharide2.openfftools.solvation import solvents, boxvectors
-from polysaccharide2.openfftools.solvation.packing import pack_topology_with_solvent
+from polymerist.openfftools import topology
+from polymerist.openfftools.solvation import solvents, boxvectors
+from polymerist.openfftools.solvation.packing import pack_topology_with_solvent
 
 
 def parse_args() -> argparse.Namespace:

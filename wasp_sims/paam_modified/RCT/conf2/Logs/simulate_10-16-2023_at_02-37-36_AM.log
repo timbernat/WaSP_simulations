@@ -37,7 +37,7 @@
   File "/projects/tibe3324/Python/WaSP_simulations/components/simulate.py", line 97, in analyze_trajectory
     prop_data = mdtrajutils.acquire_time_props(traj_no_solv, time_points=sim_params.integ_params.time_points)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/projects/tibe3324/Python/WaSP_simulations/polysaccharide2/analysis/mdtrajutils.py", line 116, in acquire_time_props
+  File "/projects/tibe3324/Python/WaSP_simulations/polymerist/analysis/mdtrajutils.py", line 116, in acquire_time_props
     out_dframe[prop.label] = time_series * prop.unit
     ~~~~~~~~~~^^^^^^^^^^^^
   File "/projects/tibe3324/software/anaconda/envs/openff-polymers/lib/python3.11/site-packages/pandas/core/frame.py", line 4094, in __setitem__

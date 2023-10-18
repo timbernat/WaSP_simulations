@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 import argparse
 import logging
-from polysaccharide2.genutils.logutils.IOHandlers import LOG_FORMATTER
+from polymerist.genutils.logutils.IOHandlers import LOG_FORMATTER
 logging.basicConfig(
     level=logging.INFO,
     format =LOG_FORMATTER._fmt,
@@ -25,17 +25,17 @@ from openff.toolkit import ForceField, Topology
 import openmm.unit
 from openmm.unit import angstrom
 
-from polysaccharide2.genutils.decorators.functional import allow_string_paths
-from polysaccharide2.genutils.fileutils.pathutils import assemble_path
-from polysaccharide2.genutils.logutils.IOHandlers import MSFHandlerFlex
-from polysaccharide2.genutils.unitutils import openmm_to_openff
+from polymerist.genutils.decorators.functional import allow_string_paths
+from polymerist.genutils.fileutils.pathutils import assemble_path
+from polymerist.genutils.logutils.IOHandlers import MSFHandlerFlex
+from polymerist.genutils.unitutils import openmm_to_openff
 
-from polysaccharide2.openmmtools.parameters import SimulationParameters
-from polysaccharide2.openmmtools import execution
+from polymerist.openmmtools.parameters import SimulationParameters
+from polymerist.openmmtools import execution
 
-from polysaccharide2.openfftools import topology
-from polysaccharide2.openfftools.omminter import openff_topology_to_openmm
-from polysaccharide2.openfftools.solvation import boxvectors
+from polymerist.openfftools import topology
+from polymerist.openfftools.omminter import openff_topology_to_openmm
+from polymerist.openfftools.solvation import boxvectors
 
 
 def parse_args() -> argparse.Namespace:

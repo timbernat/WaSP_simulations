@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 import argparse
 import logging
-from polysaccharide2.genutils.logutils.IOHandlers import LOG_FORMATTER
+from polymerist.genutils.logutils.IOHandlers import LOG_FORMATTER
 logging.basicConfig(
     level=logging.INFO,
     format =LOG_FORMATTER._fmt,
@@ -19,20 +19,20 @@ LOGGER = logging.getLogger(__name__)
 from pathlib import Path
 from openff.toolkit import Molecule, Topology
 
-from polysaccharide2.genutils.decorators.functional import allow_string_paths
-from polysaccharide2.genutils.fileutils.pathutils import assemble_path
-from polysaccharide2.genutils.logutils.IOHandlers import MSFHandlerFlex
+from polymerist.genutils.decorators.functional import allow_string_paths
+from polymerist.genutils.fileutils.pathutils import assemble_path
+from polymerist.genutils.logutils.IOHandlers import MSFHandlerFlex
 
-from polysaccharide2.monomers import MonomerGroup
-from polysaccharide2.polymers import estimation, building
-from polysaccharide2.polymers.exceptions import MorphologyError
+from polymerist.monomers import MonomerGroup
+from polymerist.polymers import estimation, building
+from polymerist.polymers.exceptions import MorphologyError
 
-from polysaccharide2.residues.rescharge.calculation import compute_residue_charges
-from polysaccharide2.residues.rescharge.rctypes import ChargesByResidue
+from polymerist.residues.rescharge.calculation import compute_residue_charges
+from polymerist.residues.rescharge.rctypes import ChargesByResidue
 
-from polysaccharide2.openfftools.pcharge import MolCharger
-from polysaccharide2.openfftools import topology, TKREGS
-from polysaccharide2.residues.partition import partition
+from polymerist.openfftools.pcharge import MolCharger
+from polymerist.openfftools import topology, TKREGS
+from polymerist.residues.partition import partition
 
 
 def parse_args() -> argparse.Namespace:

@@ -4,10 +4,11 @@
 .model.pt
 
 # sub-repos
-polysaccharide2/*
+polymerist/*
 
 # data output
 # wasp_sims/*
+workflow_test/*
 slurm_logs/*
 **/*.dcd
 
