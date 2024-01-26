@@ -1,6 +1,6 @@
 # WaSP_simulations
 
-A repository for reproducing the **Wa**ter **S**oluble **P**olymer (WaSP) molecular dynamics simulations implemented with the OpenFf-based parameterization approaches described in our recent paper(https://chemrxiv.org/engage/chemrxiv/article-details/652f6614bda59ceb9acf6393)
+A repository for reproducing the **Wa**ter **S**oluble **P**olymer (WaSP) molecular dynamics simulations implemented with the OpenFF-based parameterization approaches described in our recent paper(https://chemrxiv.org/engage/chemrxiv/article-details/652f6614bda59ceb9acf6393)
 
 ## Installation from GitHub with Conda
 First create a local clone of this repository and, within it, a clone of the in-house toolkit this repo depends on:
